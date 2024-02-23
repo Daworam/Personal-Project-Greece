@@ -1,0 +1,68 @@
+/* MAIN PAGE */
+
+#main-headline {
+  text-align: center;
+  color:white;
+  font-size:100px;
+  font-family:cursive;
+}
+
+body {
+  text-align:center;
+  background-color:blanchedalmond;
+}
+
+/* IMAGES PAGE */
+
+#images-headline {
+  text-align: center;
+  color:white;
+  font-size:100px;
+  font-family:cursive;
+}
+
+section.imagesr1 > img {
+  display:inline-block;
+}
+section.imagesr1 {
+  padding:10px;
+}
+
+section.imagesr2 > img {
+  display: inline-block;
+}
+section.imagesr2 {
+  padding: 10px;
+}
+
+/* INFORMATION PAGE */
+
+#info-headline {
+  text-align: center;
+  color:white;
+  font-size:75px;
+  font-family:cursive;
+}
+
+/* ALL PAGES */
+
+header.headbox > nav {
+  text-align: left;
+  padding:10px;
+  padding-top: 50;
+  border-radius:5px;
+  background-image: url(./photos/test1.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:top;
+}
+
+nav > a {
+  margin: 10px;
+  margin-top: 5px;
+  color:rgb(70, 34, 8);
+  padding: 10px;
+  border: 10px;
+  background-color:rgba(255, 255, 255, 1);
+  border-radius: 25px;
+}
